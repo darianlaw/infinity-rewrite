@@ -1,3 +1,3 @@
 # infinity-rewrite
-A re-write and updated version of Infinity
+A re-write and modern version of Infinity
 
