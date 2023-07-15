@@ -25,7 +25,3 @@ If you encounter any issues or have questions, join our Discord server [here](ht
 This project is licensed under the [MIT License](LICENSE).
 
 Stay tuned for updates and follow the progress on [GitHub](https://github.com/yourusername/infinitybot). We hope you enjoy using the new and improved InfinityBot!
-
-<p align="center">
-  <img src="https://example.com/infinity-logo.png" alt="InfinityBot Logo">
-</p>
