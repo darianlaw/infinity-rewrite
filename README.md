@@ -1,6 +1,6 @@
 # Infinity Discord Bot
 
-Welcome to the Infinity Discord bot rewrite! This version of the bot is written in JavaScript and brings exciting improvements and new features. 
+Welcome to the Infinity Discord bot rewrite, programmed by Kana/Darian Lawrence! This version of the bot, written in JavaScript, brings exciting improvements and new features, including support for slash commands.
 
 ## Features
 - Slash Commands: The new version includes support for Discord's slash commands. Slash commands provide a more streamlined and intuitive way for users to interact with the bot.
