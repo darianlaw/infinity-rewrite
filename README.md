@@ -1,10 +1,5 @@
 # Infinity Discord Bot
 
-<p align="left">
-  <img src="Infinity-Symbol.svg" alt="Infinity Logo" width="400"> 
-</p>
-
-
 Welcome to the Infinity Discord bot rewrite! This version of the bot is written in JavaScript and brings exciting improvements and new features. 
 
 ## Features
