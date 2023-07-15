@@ -2,6 +2,9 @@
 
 <div align="center">
   <img src="bot(7).png" alt="Infinity Bot Logo" width="200">
+  <img src="bot(8).png" alt="Infinity Bot Logo" width="200">
+  <img src="bot(5).png" alt="Infinity Bot Logo" width="200">
+  
 </div>
 
 Welcome to the Infinity Discord bot rewrite! This version of the bot is written in JavaScript and brings exciting improvements and new features. 
