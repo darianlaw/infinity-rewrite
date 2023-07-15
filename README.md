@@ -1,6 +1,6 @@
 # Infinity Discord Bot
 
-![Infinity Logo]([https://example.com/infinity-logo.png](https://imgur.com/TEClDez))
+![Infinity Logo](https://imgur.com/TEClDez)
 
 Welcome to the Infinity Discord bot rewrite! This version of the bot is written in JavaScript and brings exciting improvements and new features. 
 
