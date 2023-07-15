@@ -1,7 +1,7 @@
 # Infinity Discord Bot
 
 <p align="center">
-  <img src="logo.png" alt="Infinity Logo" width="300">
+  <img src="logo.png" alt="Infinity Logo" width="500">
 </p>
 
 
