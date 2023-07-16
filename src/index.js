@@ -22,10 +22,6 @@ client.on('ready', (c) => {
 client.on('interactionCreate', (interaction) => {
     if (!interaction.isChatInputCommand()) return;
 
-    if (interaction.commandName === 'hey') {
-        interaction.reply('hey!');
-    }
-
     if (interaction.commandName === 'ping') {
         interaction.reply('pong!');
     }
