@@ -14,9 +14,22 @@ client.on('ready', (c) => {
     console.log(`✅ ${c.user.tag} is now online!`);
 
     client.user.setActivity({
-        name: `${c.guilds.cache.size} servers`,
+        name: `${c.guilds.cache.size} guilds`,
         type: ActivityType.Watching,
     });
 });
+
+client.on('interactionCreate', (interaction) => {
+    if (!interaction.isChatInputCommand()) return;
+
+    if (interaction.commandName === 'hey') {
+        interaction.reply('hey!');
+    }
+
+    if (interaction.commandName === 'ping') {
+        interaction.reply('pong!');
+    }
+});
+
 
 client.login(process.env.TOKEN);
