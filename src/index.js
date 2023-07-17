@@ -1,3 +1,5 @@
+/// importing libaries  
+
 require("dotenv").config();
 const {
   Client,
@@ -16,24 +18,29 @@ const client = new Client({
   ],
 });
 
+/// when the client is ready print out 'Bot Name is ready!'
+
 client.on("ready", (c) => {
   console.log(`✅ ${c.user.tag} is now online!`);
 
+
+  /// set activity to watching the number of servers 
   client.user.setActivity({
     name: `${c.guilds.cache.size} guilds`,
     type: ActivityType.Watching,
   });
 });
 
+/// embed and pong commad 
+
 client.on("interactionCreate", (interaction) => {
   if (!interaction.isChatInputCommand()) return;
 
-  if (interaction.commandName === "embed") {
+  if (interaction.commandName === "help") {
     const embed = new EmbedBuilder()
-      .setTitle("Embed title")
-      .setDescription("This is an embed description")
+      .setTitle("Infinity's Help Commands")
+      .setDescription(`Message sent by ${user.id}`)
       .setColor("#4a6aff")
-      .setAuthor({ name: 'Some name', iconURL: 'https://i.imgur.com/AfFp7pu.png', url: 'https://discord.js.org' })
       .addFields({
         name: "Field title",
         value: "Some random value",
@@ -45,7 +52,7 @@ client.on("interactionCreate", (interaction) => {
 
       });
 
-    interaction.reply({ embeds: [embed] });
+    interaction.reply({ embeds: [help] });
   }
 
   if (interaction.commandName === "ping") {
