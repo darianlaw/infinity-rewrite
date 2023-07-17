@@ -39,21 +39,21 @@ client.on("interactionCreate", (interaction) => {
 
   if (interaction.commandName === "help") {
     const embed = new EmbedBuilder()
-      .setTitle("Infinity's Help Commands")
-      .setDescription(`Message sent by ${user.id}`)
+      .setTitle("Bot Commands")
+      .setDescription("Description of the commands!")
       .setColor("#4a6aff")
       .addFields({
         name: "Field title",
         value: "Some random value",
-        inline: true,
+        inline: false,
       }, {
         name: "2nd Field title",
         value: "Some random value",
-        inline: true,
+        inline: false,
 
       });
 
-    interaction.reply({ embeds: [help] });
+    interaction.reply({ embeds: [embed] });
   }
 
   if (interaction.commandName === "ping") {

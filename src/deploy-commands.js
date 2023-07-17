@@ -12,7 +12,7 @@ const commands = [
   },
 
   {
-    name: "embed",
+    name: "help",
     description: "Displays an embed",
   },
 ];
