@@ -1,6 +1,6 @@
 # InfinityBot
 
-<p align="center">
+<p align="left">
 <img src="infinity.svg" alt="Infinity Bot Logo" width="100" height="100">
 </p>
 
