@@ -1,7 +1,9 @@
-/// importing libaries  
+/* importing libaries */
 
 require("dotenv").config();
 const { REST, Routes } = require("discord.js");
+
+/* slash commands */
 
 const commands = [
   {
@@ -14,6 +16,8 @@ const commands = [
     description: "Displays an embed",
   },
 ];
+
+/* error handling & slash command registration */
 
 const rest = new REST({ version: "10" }).setToken(process.env.TOKEN);
 

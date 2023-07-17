@@ -1,4 +1,4 @@
-/// importing libaries  
+/* importing libaries */
 
 require("dotenv").config();
 const {
@@ -18,20 +18,21 @@ const client = new Client({
   ],
 });
 
-/// when the client is ready print out 'Bot Name is ready!'
+/* when the client is ready print out 'Bot Name is ready!' */
 
 client.on("ready", (c) => {
   console.log(`✅ ${c.user.tag} is now online!`);
 
 
-  /// set activity to watching the number of servers 
+  /* set activity to watching the number of servers */
+  
   client.user.setActivity({
     name: `${c.guilds.cache.size} guilds`,
     type: ActivityType.Watching,
   });
 });
 
-/// embed and pong commad 
+/* embed and pong commad */
 
 client.on("interactionCreate", (interaction) => {
   if (!interaction.isChatInputCommand()) return;
@@ -59,5 +60,7 @@ client.on("interactionCreate", (interaction) => {
     interaction.reply("pong!");
   }
 });
+
+/* logs the bot in if no errors are found */
 
 client.login(process.env.TOKEN);
