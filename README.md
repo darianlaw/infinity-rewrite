@@ -1,6 +1,6 @@
 # InfinityBot
 
-![Infinity Logo](infinity.svg){:height="200px" width="200px"}
+!<img src="infinity.svg" alt="Infinity Bot Logo" width="200" height="200">
 
 
 Welcome to the InfinityBot rewrite! This version of the bot is written in JavaScript and brings significant improvements and new features, including support for slash commands.
