@@ -1,7 +1,7 @@
 # InfinityBot
 
 <p align="left">
-<img src="infinity.svg" alt="Infinity Bot Logo" width="250" height="250">
+<img src="infinity.svg" alt="Infinity Bot Logo" width="150" height="150">
 </p>
 
 Welcome to the InfinityBot rewrite! This version of the bot is written in JavaScript and brings significant improvements and new features, including support for slash commands.
