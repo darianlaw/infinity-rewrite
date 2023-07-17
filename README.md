@@ -18,10 +18,5 @@ To start using InfinityBot, follow these steps:
 ## Contributing
 Contributions to InfinityBot are welcome! If you have any ideas, bug fixes, or enhancements, please feel free to open a pull request. Please refer to our [contribution guidelines](CONTRIBUTING.md) for more information.
 
-## Support
-If you encounter any issues or have questions, join our Discord server [here](https://discord.gg/sJySzERPxu) for assistance and support.
-
 ## License
 This project is licensed under the [MIT License](LICENSE).
-
-Stay tuned for updates and follow the progress on [GitHub](https://github.com/yourusername/infinitybot). We hope you enjoy using the new and improved InfinityBot!
