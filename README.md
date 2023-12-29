@@ -10,7 +10,7 @@ Welcome to the InfinityBot rewrite! This version of the bot is written in JavaSc
 ## Getting Started
 To start using InfinityBot, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/yourusername/infinitybot.git`
+1. Clone the repository: `git clone https://github.com/itsretsu/infinity-rewrite.git`
 2. Install dependencies: `npm install`
 3. Configure the bot: Rename `config.example.json` to `config.json` and update the necessary settings.
 4. Start the bot: `npm start`
