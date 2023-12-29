@@ -1,4 +1,4 @@
-# InfinityBot
+# InfinityBot (Discontinued) 
 
 Welcome to the InfinityBot rewrite! This version of the bot is written in JavaScript and brings significant improvements and new features, including support for slash commands.
 
